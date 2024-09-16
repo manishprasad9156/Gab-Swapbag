@@ -123,17 +123,14 @@ ul {
 }
 
 .header-images img {
-  width: 17vw;
+  width: 40vw;
   filter: drop-shadow(0 0 1.5em rgb(0, 0, 0));
 }
 
 .img1 img {
-  margin-bottom: 4em;
+  margin-bottom: 0.5em;
 }
 
-.img2 img {
-  margin-top: 4em;
-}
 
 .title {
   font-size: 4em;
@@ -168,8 +165,8 @@ ul {
 }
 
 .img1 .spec {
-  right: -2em;
-  top: -3em;
+  right: 1em;
+  top: 2em;
 }
 
 .img2 .spec {
@@ -206,7 +203,7 @@ ul {
 }
 
 .img1 .dot {
-  left: 31%;
+  left: 5%;
 }
 
 .img2 .dot {
@@ -301,6 +298,34 @@ ul {
   width: 50%;
   filter: drop-shadow(0 0 1.5em rgb(0, 0, 0, 0.5));
 }
+/*video add */
+.centered-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; /* Full viewport height to vertically center */
+}
+
+.centered-heading {
+  text-align: center;
+  font-size: 35px;
+  color:white;
+}
+
+.video-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 720px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* ======== SWIPER SECTION ========= */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -340,6 +365,7 @@ ul {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* ======== PRODUCT SECTION ========= */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
 .product {
   background: linear-gradient(135deg, #303134, #1f2123);
 }
