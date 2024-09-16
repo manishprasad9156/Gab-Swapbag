@@ -83,7 +83,7 @@ header {
 }
 
 .brand img {
-  width: 8em;
+  width: 12em;
 }
 
 ul {
@@ -115,7 +115,7 @@ ul {
 
 .header-images {
   display: flex;
-  gap: 3em;
+  gap: 2em;
 }
 
 .header-images div {
@@ -203,7 +203,7 @@ ul {
 }
 
 .img1 .dot {
-  left: 5%;
+  left: 65%;
 }
 
 .img2 .dot {
